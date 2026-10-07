@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Die in Office: Troll Game</title>
+<meta name="description" content="Die in Office: a funny troll platformer. Escape 100 floors of office traps before 5PM Friday.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg:#1B0F45; --bg2:#2A1470; --text:#F4F0FF; --muted:#BFB3E8; --lime:#8BE33B; --cyan:#3FE0F0; --pink:#FF4FA3; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:var(--text);
+         background: radial-gradient(ellipse at 50% 0%, var(--bg2), var(--bg) 70%); min-height:100vh; }
+  main { max-width: 900px; margin: 0 auto; padding: 32px 16px 48px; text-align:center; }
+  .banner { width:100%; border-radius:24px; border:2px solid var(--cyan);
+            box-shadow: 0 0 24px rgba(63,224,240,.45), 0 0 48px rgba(255,79,163,.25); }
+  h1 { font-size: clamp(28px, 6vw, 44px); margin: 28px 0 8px; }
+  h1 span { color: var(--lime); }
+  p { color: var(--muted); font-size: 18px; line-height:1.6; }
+  .btn { display:inline-block; margin-top:20px; padding:14px 28px; border-radius:16px; font-weight:800;
+         font-size:18px; color:#16310A; background: linear-gradient(#A8F25C, #6CC52A); text-decoration:none;
+         box-shadow: 0 5px 0 #3F8A16, 0 0 20px rgba(139,227,59,.5); }
+  footer { margin-top: 40px; font-size: 14px; }
+  footer a { color: var(--cyan); }
+</style>
+</head>
+<body>
+<main>
+  <img class="banner" src="banner.png" alt="Die in Office: Troll Game">
+  <h1>Die in <span>Office</span>: Troll Game</h1>
+  <p>It's 4:59 PM on Friday. The EXIT door is right there. What could possibly go wrong?<br>
+     Run, jump and survive 100 floors of sneaky office traps.</p>
+  <a class="btn" href="https://play.google.com/store/apps/details?id=com.indieapps.officeescape">Get it on Google Play</a>
+  <footer>
+    <a href="https://chromasecure.github.io/privacy-policy/">Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>
